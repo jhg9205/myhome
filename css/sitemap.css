@@ -1,0 +1,56 @@
+body{
+    background-image: url(../image/header-bg.jpg);
+}
+header{
+    list-style: none;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: none;
+    margin-bottom: 3%;
+    font-family: 'Merriweather', serif;
+}
+header > span{
+    color: blanchedalmond;
+    list-style: none;
+    text-align: center;
+    font-size: 60px;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 90px;
+    text-shadow: 0 0 1px rgb(255, 235, 205), 0 0 20px rgb(255, 235, 205), 0 0 30px rgb(252, 244, 234);
+}
+#main{
+    position: relative;
+    top: 100px;
+    margin: 0 auto;
+    width: 400px;
+    height: 300px;
+    background-color: rgb(253, 244, 229, 0.5);
+    border: blanchedalmond 3PX solid;
+    border-radius: 10px;
+    box-shadow: 0 0 1px rgb(255, 235, 205), 0 0 20px rgb(255, 235, 205), 0 0 30px rgb(252, 244, 234);
+}
+a{
+    list-style: none;
+    text-decoration: none;
+    color: blanchedalmond;
+    float: left;
+}
+li:hover{
+    text-shadow:0 0 1px rgb(255, 235, 205), 0 0 20px rgb(255, 235, 205), 0 0 30px rgb(252, 244, 234);
+}
+ul li {
+    color: white;
+    font-size: 20px;
+    margin: 20px auto;
+}
+@font-face {
+    font-family: 'twayair';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_tway@1.0/twayair.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: 'twayair';
+}

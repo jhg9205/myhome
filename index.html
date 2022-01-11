@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>메인화면</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/index.js"></script>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <div id="logo">
+                <a href="./index.html"><img src="./image/DPR.png" alt="로고" align="left"></a>
+            </div>
+            <div id="login">
+                <a href="./login.html"><img src="./image/login (1).png" alt="로그인" align="right"></a>
+            </div>
+            <div class="box"> 
+                <span class="left_top"></span> 
+                <span class="right_top"></span> 
+                <span class="right_bottom"></span> 
+                <span class="left_bottom"></span>
+                <span class="title">Dream Perfect Regime</span>
+            </div>
+        </header>
+        <nav><p>
+            <ul>
+                <li><a href="./resume.html" target="if">Resume</a></li>
+                <li><a href="./news.html" target="if">News</a></li>
+                <li><a href="./favorite.html" target="if">Favorites</a></li>
+                <li><a href="./market.html" target="if">Market</a></li>
+                <li><a href="./media.html">Media</a></li>
+                <li><a href="./sitemap.html">Tourist</a></li>
+                <li><a href="./watcha/index.html">Watcha</a></li>
+                <li><a href="./number.html">Number</a></li>
+            </ul>
+            </p>
+        </nav>
+        <div id="clock">  
+            <div id="result"></div>
+            <button type="button" onclick="gotime()"">Start</button>
+            <button type="button" onclick="stoptime()">Stop</button>
+        </div>
+        <main>
+            <audio controls src="./css/music/DPR LIVE-02-GERONIMO!.mp3"></audio>
+            <img id="fx" src="./image/dpr2.png" alt="dpr">
+            <div>
+                <iframe src="" name="if"></iframe>
+            </div>
+        </main>
+        <footer>
+            <p>© DPR Corp. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+span {
+    color: blue;
+}  
+h2 {
+    color: red;
+    padding: 15px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}  
+img {
+    margin: 0 auto;
+}  
+div {
+    width: 740px;
+    border: 1px solid rgb(0, 0, 0);
+    align-content: center;
+    margin: 0 auto;
+    text-align: center;
+}  
+div > p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.first {
+    text-align: left;
+    width: 720px;
+    padding: 10px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+#help {
+    color: black;
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+p { text-align: center;}
